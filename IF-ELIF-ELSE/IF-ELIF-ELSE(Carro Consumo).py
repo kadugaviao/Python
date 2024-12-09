@@ -20,16 +20,3 @@ custoConsumidor = custoFabrica * (1 + porcentagemDistribuidor + impostos)
 
 print(f'O custo do consumidor é: R${custoConsumidor:.2f}')
 print(f'O valor do distribuidor é: {porcentagemDistribuidor}, imposto é {impostos}, valor de fábrica é {custoFabrica}.')
-
-"""
-custoFabrica = float(input('Digite o custo de fábrica do carro: R$ '))
-
-percentualDistribuidor = custoFabrica * 0.28
-
-impostos = custoFabrica * 0.45
-
-custoConsumir = custoFabrica + percentualDistribuidor + impostos
-
-print(f'O custo final do consumidor é: R$ {custoConsumir:.2f}')
-print(f'O valor do distribuidor é: {percentualDistribuidor}, imposto é {impostos}, valor de fábrica é {custoFabrica}.')
-"""
